@@ -1,0 +1,101 @@
+
+body, header, footer, .actions {
+    font-family: "Trebuchet MS", sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    color: #222;
+}
+
+h1 {
+    font-size: 30px;
+    color: #00264d;
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 24px;
+    color: #004080;
+    margin: 15px 0;
+}
+
+h3 {
+    font-size: 20px;
+    color: #0059b3;
+    margin: 10px 0;
+}
+
+a {
+    color: #3366cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-color: #cce5ff;
+    padding: 25px;
+    text-align: center;
+}
+
+nav {
+    background-color: #003366;
+    padding: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    color: white;
+    padding: 8px 16px;
+}
+
+#home, #services, #about, #contact {
+    background-color: #0059b3;
+    border-radius: 4px;
+}
+
+article {
+    margin: 25px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 2px solid #ccc;
+}
+
+section {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #e6f2ff;
+}
+
+.act {
+    background-color: #f0f8ff;
+    padding: 12px;
+    border-left: 5px solid #3399ff;
+}
+
+.Edit {
+    color: #006600;
+    font-weight: bold;
+}
+
+.Flag {
+    color: #cc0000;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
